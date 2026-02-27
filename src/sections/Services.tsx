@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { Code, Cloud, Camera, Database, ArrowRight } from 'lucide-react';
-import fullstackImg from '../../public/images/service-fullstack.jpg';
-import devopsImg from '../../public/images/service-devops.jpg';
-import cctvImg from '../../public/images/service-cctv.jpg';
-import webscrapingImg from '../../public/images/service-webscraping.jpg';
+import fullstackImg from '/images/service-fullstack.jpg';
+import devopsImg from '/images/service-devops.jpg';
+import cctvImg from '/images/service-cctv.jpg';
+import webscrapingImg from '/images/service-webscraping.jpg';
 const services = [
   {
     icon: Code,
