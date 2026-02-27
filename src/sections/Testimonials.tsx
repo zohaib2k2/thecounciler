@@ -1,11 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { Quote, ChevronLeft, ChevronRight, Star } from 'lucide-react';
+import testimonial1 from '/images/client-1.jpg';
+import testimonial2 from '/images/client-2.jpg';
+import testimonial3 from '/images/client-3.jpg';
 
 const testimonials = [
   {
     name: 'Sarah Mitchell',
     role: 'CEO, TechStart Inc.',
-    image: '/images/client-1.jpg',
+    image: testimonial1,
     content:
       'TechNova transformed our vision into reality. Their full-stack development team delivered a robust platform that scaled seamlessly with our growth. The attention to detail and technical expertise exceeded our expectations.',
     rating: 5,
@@ -13,7 +16,7 @@ const testimonials = [
   {
     name: 'Michael Chen',
     role: 'CTO, DataFlow Systems',
-    image: '/images/client-2.jpg',
+    image: testimonial2,
     content:
       'The DevOps automation TechNova implemented reduced our deployment time by 70%. Their team is professional, responsive, and truly understands modern infrastructure needs. Highly recommended!',
     rating: 5,
@@ -21,7 +24,7 @@ const testimonials = [
   {
     name: 'David Park',
     role: 'Founder, SecureView',
-    image: '/images/client-3.jpg',
+    image: testimonial3,
     content:
       'TechNova\'s CCTV installation service was exceptional. They designed a comprehensive security system for our facilities with remote monitoring capabilities. The support team is always available when we need them.',
     rating: 5,
