@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { Code, Cloud, Camera, Database, ArrowRight } from 'lucide-react';
-
+import fullstackImg from '../../public/images/service-fullstack.jpg';
+import devopsImg from '../../public/images/service-devops.jpg';
+import cctvImg from '../../public/images/service-cctv.jpg';
+import webscrapingImg from '../../public/images/service-webscraping.jpg';
 const services = [
   {
     icon: Code,
@@ -8,7 +11,7 @@ const services = [
     description:
       'End-to-end web and mobile application development using modern frameworks like React, Node.js, and Python. We build scalable, performant solutions tailored to your business needs.',
     features: ['React & Next.js', 'Node.js & Python', 'Mobile Apps', 'API Development'],
-    image: '/images/service-fullstack.jpg',
+    image: fullstackImg,
     color: 'from-purple-500 to-pink-500',
   },
   {
@@ -17,7 +20,7 @@ const services = [
     description:
       'Streamline your development pipeline with CI/CD automation, infrastructure as code, and cloud-native solutions. We help you deploy faster and more reliably.',
     features: ['CI/CD Pipelines', 'Docker & Kubernetes', 'AWS/Azure/GCP', 'Monitoring'],
-    image: '/images/service-devops.jpg',
+    image: devopsImg,
     color: 'from-blue-500 to-cyan-500',
   },
   {
@@ -26,7 +29,7 @@ const services = [
     description:
       'Professional security camera installation and monitoring systems for businesses. Protect your assets with state-of-the-art surveillance technology.',
     features: ['HD Cameras', 'Remote Monitoring', 'Cloud Storage', '24/7 Support'],
-    image: '/images/service-cctv.jpg',
+    image: cctvImg,
     color: 'from-green-500 to-emerald-500',
   },
   {
@@ -35,7 +38,7 @@ const services = [
     description:
       'Extract valuable data from websites efficiently and ethically. We build custom scraping solutions that deliver structured data for your business intelligence.',
     features: ['Data Extraction', 'API Integration', 'Automated Scheduling', 'Data Cleaning'],
-    image: '/images/service-webscraping.jpg',
+    image: webscrapingImg,
     color: 'from-orange-500 to-amber-500',
   },
 ];
