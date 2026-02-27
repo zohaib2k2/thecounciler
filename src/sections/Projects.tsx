@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import ecomerce_img from '/images/project-ecommerce.jpg';
+import ai_dashboard_img from '/images/project-ai-dashboard.jpg';
+import fintech_img from '/images/project-fintech.jpg';
 
 const projects = [
   {
@@ -7,7 +10,7 @@ const projects = [
     category: 'Full-Stack Development',
     description:
       'A modern e-commerce platform with real-time inventory, payment processing, and analytics dashboard.',
-    image: '/images/project-ecommerce.jpg',
+    image: ecomerce_img,
     tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
     link: '#',
     github: '#',
@@ -17,7 +20,7 @@ const projects = [
     category: 'Data & AI',
     description:
       'Machine learning-powered analytics platform providing real-time insights and predictive modeling.',
-    image: '/images/project-ai-dashboard.jpg',
+    image: ai_dashboard_img,
     tags: ['Python', 'TensorFlow', 'React', 'AWS'],
     link: '#',
     github: '#',
@@ -27,7 +30,7 @@ const projects = [
     category: 'Mobile Development',
     description:
       'Secure mobile banking application with biometric authentication and investment tracking.',
-    image: '/images/project-fintech.jpg',
+    image: fintech_img,
     tags: ['React Native', 'Node.js', 'PostgreSQL'],
     link: '#',
     github: '#',
